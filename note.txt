@@ -1,0 +1,80 @@
+!! NOTE !!
+di ubah bagian update delete dan detail menggunakan icon beserta berikan hover
+nama kegunaan tersebut
+di bagian add nya posisikan di bagian pojok kanan dari title daftar
+
+=================================================================
+
+### BAGIAN KELAS
+1. terdapat bagian luar kelas, yang hanya bisa dibuat oleh guru/teacher.
+berisi form lengkap. di tampilan depan hanya terisi:
+  ** nama kelas
+  ** jumlah siswa
+  ** guru pengajar
+  ** semester (contoh: 1 / 2)
+lalu dibagian tombol terdapat update, delete dan detail data kelas
+
+2. terdapat bgaian detailnya kelas
+berisi table yang isinya data-data siswa yang sudah bergabung di kelas: 
+  ** pembuatan folder request kelas.
+  ** dibawah ini untuk folder request kelas
+  ** pembuatan form yang terdapat: 
+      *** nama siswa
+      *** nama kelas (berikan user pilihan opsi: kelas kelas yang aktif contohnya, kelas hijau ada slot masuk. jika penuh kelas yang lain)
+      *** jumlah siswa (batas siswa terdapat: 30 siswa gak boleh lebih)
+      *** guru pengajar (opsi: yang terdaftar nama guru) 
+      *** mata pelajaran (berikan opsi: matematika/ipa/ips/DLL)
+      *** semester (default di tampilan awal: 1/2)
+      *** pendidikan (berikan opsi: SD, SMP, SMK, KULIAH)
+      *** lokasi kelas (contoh: di aula/DLL)
+      *** status kelas (contoh: penuh / masih ada(tersisa)) {hanya di frontend, di backend jangan isikan list seperti ini}
+
+
+### BAGIAN DAFTAR STUDENT
+1. Dibagian luar daftar student itu terdapat table list yang berisi:
+  ** Nama student
+  ** Nis
+  ** email
+  ** tanggal lahir
+  ** alamat
+  ** jurusan
+
+2. Di bagian menmabhakan data student FORM terdapat: 
+  ** Nama student
+  ** Nis (bbertype number yang berisi hanya 4 angka)
+  ** email
+  ** tanggal lahir (bertype date)
+  ** alamat
+  ** jurusan (berikan opsi: teknik informatika/teknik robotik/teknik elektro/teknik mesin/teknik penerbangan/teknik kimia)
+  ** jenis kelamin (berikan opsi/pilihan: laki-laki/perempuan)
+  ** nomer telpon (berikan batas: only angka 13 digit)
+  ** Tingkat Pendidikan (berikan opsi: SD/SMP/SMK);
+  ** mata pelajaran (berikan opsi: matematika,ipa,bahasa inggris,bahasa indonesia,ips)
+  ** orang tua/wali
+
+
+### BAGIAN DAFTAR MATAPELAJARAN
+1. Di bagian luar daftar MATAPELAJARAN itu terdapat form/data:
+  ** nama MATAPELAJARAN (berikan opsi: matematika/ipa/ips/informatika/dll)
+  ** hari (berikan opsi: senin,selasa,rabu,kamis,jumat,sabtu,minggu)
+  ** waktu (waktu terserah user yang input) x2 (waktu mulai dan waktu selesai)
+  ** nama guru(berikan opsi: nama guru yang sudah terdaftar di role);
+  ** ruangan kelas (berikan opsi: lab/aula/komputer/perpustakaan/DLL)
+  ** metode pengajaran (berikan opsi: teori/praktik/proyek)
+  ** deskripsi
+
+
+  ### MENCOBA MENGATASI HALAMAN KELAS & REQ KELAS
+
+
+
+
+  ##Growtopia
+  world: bttxe (sell scimitar (10dl))
+
+
+## kelas
+
+jika kelas tersebut sudah mencapai 20 maka siswa tidak bisa masuk lagi
+
+berikan alert (bahwa sudah penuh)
